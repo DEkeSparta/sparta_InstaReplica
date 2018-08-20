@@ -37,40 +37,48 @@ footer{
   margin:70px auto 50px auto;
   text-align: center;
   font-weight: bold;
-  font-size:14px;
+  font-size:12px;
 }
 
 .container{
-  width:950px;
+  width:784px;
   margin:auto;
   margin-top:40px;
   display:block;
   height:auto;
   overflow: auto;
+  /* background-color:blue; */
 }
 
 .imageBox{
   display:block;
   float:left;
-  width:50%;
-  margin:100px auto auto auto;
+  width:auto;
+  margin:150px auto auto auto;
+  /* background-color: red; */
 }
 
 .outerFormBox{
   display:block;
   float:right;
+  width:413px;
   text-align: center;
+  /* background-color: green; */
 }
 
 .innerFormBox{
   background-color: white;
   color:#b0b0b0;
-  width:280px;
-  margin:0px;
+  margin:0px 25px;
   padding:40px;
   border:1px #f0f0f0 solid;
   text-align: center;
   height:auto;
+}
+
+.button{
+  width:99%;
+  padding:0px 0px;
 }
 
 .termsBox{
@@ -79,7 +87,7 @@ footer{
 
 .loginBox{
   background-color: white;
-  margin:15px 60px;
+  margin:12px 25px;
   padding:30px 40px;
   border:1px #f0f0f0 solid;
   text-align: center;
@@ -88,8 +96,8 @@ footer{
 
 .icon{
   display:inline-block;
-  margin:5px 5px;
-  height:48px;
+  margin:5px;
+  height:40px;
 }
 
 .footerNav{
@@ -99,7 +107,7 @@ footer{
 .navPart{
   color:black;
   display:inline;
-  padding:5px;
+  padding:8px;
 }
 
 .copyright{
