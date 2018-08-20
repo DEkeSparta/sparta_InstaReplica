@@ -31,31 +31,42 @@ a{
   text-decoration: none;
 }
 
+footer{
+  display: block;
+  width:1050px;
+  margin:70px auto 50px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size:14px;
+}
+
 .container{
-  width:940px;
+  width:950px;
   margin:auto;
   margin-top:40px;
   display:block;
+  height:auto;
+  overflow: auto;
 }
 
 .imageBox{
+  display:block;
   float:left;
   width:50%;
-  margin:auto auto 0px auto;
+  margin:100px auto auto auto;
 }
 
 .outerFormBox{
+  display:block;
   float:right;
-  width:50%;
   text-align: center;
-  height:760px;
 }
 
 .innerFormBox{
   background-color: white;
   color:#b0b0b0;
-  height:760px;
-  margin:0px 60px;
+  width:280px;
+  margin:0px;
   padding:40px;
   border:1px #f0f0f0 solid;
   text-align: center;
@@ -68,9 +79,8 @@ a{
 
 .loginBox{
   background-color: white;
-  height:760px;
   margin:15px 60px;
-  padding:40px;
+  padding:30px 40px;
   border:1px #f0f0f0 solid;
   text-align: center;
   height:auto;
@@ -80,4 +90,20 @@ a{
   display:inline-block;
   margin:5px 5px;
   height:48px;
+}
+
+.footerNav{
+  list-style-type: none;
+}
+
+.navPart{
+  color:black;
+  display:inline;
+  padding:5px;
+}
+
+.copyright{
+  display:inline;
+  color:#b0b0b0;
+  margin-left: 150px;
 }
