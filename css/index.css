@@ -1,0 +1,50 @@
+body{
+  width:100%;
+  background-color:#f8f8f8;
+  font-family:"Segoe UI", Arial;
+}
+
+img{
+  display: block;
+  margin: 0px auto;
+}
+
+form{
+  width:100%;
+}
+
+input{
+  padding:4px;
+  margin:4px;
+  width:100%;
+  wi
+}
+
+.container{
+  width:940px;
+  margin:auto;
+  margin-top:40px;
+  height:1000px;
+  display:block;
+}
+
+.imageBox{
+  float:left;
+  width:50%;
+}
+
+.outerFormBox{
+  float:right;
+  width:50%;
+  text-align: center;
+  height:100%;
+}
+
+.innerFormBox{
+  background-color: white;
+  margin:60px;
+  padding:40px;
+  border:1px lightgrey solid;
+  text-align: center;
+  height:inherit;
+}
