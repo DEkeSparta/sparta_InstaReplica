@@ -68,11 +68,16 @@ a{
 
 .loginBox{
   background-color: white;
-  color:#b0b0b0;
   height:760px;
   margin:15px 60px;
   padding:40px;
   border:1px #f0f0f0 solid;
   text-align: center;
   height:auto;
+}
+
+.icon{
+  display:inline-block;
+  margin:5px 5px;
+  height:48px;
 }
