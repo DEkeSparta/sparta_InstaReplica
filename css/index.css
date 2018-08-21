@@ -44,7 +44,7 @@ footer{
   width:784px;
   margin:auto;
   margin-top:40px;
-  display:block;
+  display:flex;
   height:auto;
   overflow: auto;
   /* background-color:blue; */
